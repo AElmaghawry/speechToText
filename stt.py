@@ -57,8 +57,7 @@ def toggle_recognition():
 def start_gui():
     # Create the GUI window
     window = tk.Tk()
-    window.title("Audio Recorder")
-
+    window.title("STT")
     # Create a single button for toggling recognition
     global record_button
     record_button = tk.Button(window, text="Recording", command=toggle_recognition, bg="yellow", width=20, height=3)
